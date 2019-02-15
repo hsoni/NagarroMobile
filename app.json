@@ -1,0 +1,22 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "Sample review app",
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "NagarroMobile",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
